@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Thippeswamy K R — Full-Stack Software Engineer building production-grade MERN and Next.js systems. B.E. AIML, Sri Sairam College of Engineering.">
+<title>Thippeswamy K R — Full-Stack Software Engineer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-texture"></div>
+
+<nav class="navbar" id="navbar">
+  <a href="#top" class="nav-logo"><span class="dot"></span>THIPPESWAMY.DEV</a>
+  <ul class="nav-menu" id="navMenu">
+    <li><a href="#work" class="nav-link">Work</a></li>
+    <li><a href="#approach" class="nav-link">Approach</a></li>
+    <li><a href="#expertise" class="nav-link">Expertise</a></li>
+    <li><a href="#experience" class="nav-link">Experience</a></li>
+    <li><a href="#contact" class="nav-link">Contact</a></li>
+  </ul>
+  <a href="img/Resume.pdf" class="nav-cta" target="_blank" rel="noopener">Resume ↗</a>
+  <div class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
+</nav>
+
+<!-- HERO -->
+<header id="top" class="hero shell">
+  <div class="hero-grid">
+    <div class="reveal in">
+      <div class="hero-eyebrow"><span class="live-dot"></span>OPEN TO FULL-STACK / SDE ROLES · BENGALURU</div>
+      <h1 class="hero-headline">Full-stack engineer who ships <span class="accent">production-ready</span> systems, not tutorials.</h1>
+      <p class="hero-sub">I design and build complete MERN &amp; Next.js applications end to end — real-time systems, authenticated APIs, test suites, and deploy pipelines. A recent AI &amp; Machine Learning graduate who's shipped few full products from architecture to production.</p>
+      <div class="hero-actions">
+        <a href="img/Resume.pdf" class="btn btn-primary" target="_blank" rel="noopener">View Resume</a>
+        <a href="https://github.com/thippeswamykr1204" class="btn btn-outline" target="_blank" rel="noopener">GitHub ↗</a>
+        <a href="#contact" class="btn btn-outline">Get in touch</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="hero-stat-value">10+</div>
+          <div class="hero-stat-label">Production projects shipped</div>
+        </div>
+        <div>
+          <div class="hero-stat-value">120+</div>
+          <div class="hero-stat-label">Automated tests written</div>
+        </div>
+        <div>
+          <div class="hero-stat-value">15wk</div>
+          <div class="hero-stat-label">MERN internship completed</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-portrait-wrap reveal in">
+      <div class="hero-corner-mark">EST. 2022</div>
+      <div class="hero-portrait-frame"><img src="img/Profile.png" alt="Thippeswamy K R"></div>
+      <div class="hero-portrait-tag"><span class="live-dot"></span>Available now</div>
+    </div>
+  </div>
+</header>
+
+<!-- APPROACH -->
+<section id="approach" class="section-pad shell">
+  <div class="section-head reveal">
+    <div>
+      <div class="section-index">00 / APPROACH</div>
+      <h2 class="section-title">How I build</h2>
+    </div>
+    <div class="section-meta">Engineering principles applied to every project below</div>
+  </div>
+
+  <div class="approach-grid">
+    <p class="approach-lead reveal">I learn by shipping. <span class="dim">Every project starts as a working increment, gets hardened with tests and validation, then gets iterated until it's something I'd defend in a system-design interview — not something I'd hide from one.</span></p>
+
+    <div class="principles-list">
+      <div class="principle-row reveal">
+        <div class="principle-num">01</div>
+        <div>
+          <div class="principle-title">Ship the thin slice first</div>
+          <div class="principle-desc">I build the smallest version that works end to end — UI to database — before adding features. It surfaces integration problems on day one instead of week three.</div>
+        </div>
+      </div>
+      <div class="principle-row reveal">
+        <div class="principle-num">02</div>
+        <div>
+          <div class="principle-title">Harden before I call it done</div>
+          <div class="principle-desc">Zod validation at every boundary, JWT auth on protected routes, Jest/Supertest coverage on the paths that matter. PulseQ and the Library Management API both carry 55+ integration tests.</div>
+        </div>
+      </div>
+      <div class="principle-row reveal">
+        <div class="principle-num">03</div>
+        <div>
+          <div class="principle-title">Debug the root cause, not the symptom</div>
+          <div class="principle-desc">CORS misconfigurations, MongoDB transaction race conditions, replica-set testing quirks — I've traced each of these to source rather than patching around them.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SELECTED WORK -->
+<section id="work" class="section-pad shell">
+  <div class="section-head reveal">
+    <div>
+      <div class="section-index">01 / SELECTED WORK</div>
+      <h2 class="section-title">Products I've built end to end</h2>
+    </div>
+    <div class="section-meta">Architecture → implementation → tests → deployment</div>
+  </div>
+
+  <div class="slider" id="workSlider">
+    <div class="slider-viewport">
+      <div class="slider-track" id="sliderTrack">
+
+        <article class="slide-card">
+          <div class="slide-card-top">
+            <span class="slide-card-title">Yatrik</span>
+            <a class="work-link" href="https://yatrick.vercel.app/" target="_blank" rel="noopener">Visit ↗</a>
+          </div>
+          <p class="slide-card-desc">Generates a complete day-by-day travel itinerary priced in INR instead of generic dollar estimates — Gemini 2.5 Flash reasons over destination, duration, and budget to fit an Indian traveler's constraints.</p>
+          <div class="slide-card-tags"><span class="tag">Next.js 15</span><span class="tag">TypeScript</span><span class="tag">Express</span><span class="tag">MongoDB Atlas</span><span class="tag">Gemini 2.5 Flash</span></div>
+        </article>
+
+        <article class="slide-card">
+          <div class="slide-card-top">
+            <span class="slide-card-title">PulseQ</span>
+            <a class="work-link" href="https://pluse-q.vercel.app/" target="_blank" rel="noopener">Visit ↗</a>
+          </div>
+          <p class="slide-card-desc">Handles concurrent hospital check-ins without double-booking a queue slot — atomic MongoDB transactions prevent the race condition, with Socket.io pushing live state to every connected client.</p>
+          <div class="slide-card-tags"><span class="tag">MERN</span><span class="tag">Socket.io</span><span class="tag">JWT</span><span class="tag">Zod</span><span class="tag">Jest / Supertest</span></div>
+        </article>
+
+        <article class="slide-card">
+          <div class="slide-card-top">
+            <span class="slide-card-title">FinSight</span>
+            <a class="work-link" href="https://finsight-five-delta.vercel.app/" target="_blank" rel="noopener">Visit ↗</a>
+          </div>
+          <p class="slide-card-desc">Personal finance dashboard for tracking spending and net worth, with JWT-authenticated accounts and a Dockerized, AWS-backed deployment built for production-realistic ops.</p>
+          <div class="slide-card-tags"><span class="tag">Next.js</span><span class="tag">Node.js</span><span class="tag">MongoDB</span><span class="tag">AWS</span><span class="tag">Docker</span></div>
+        </article>
+
+        <article class="slide-card">
+          <div class="slide-card-top">
+            <span class="slide-card-title">Sports Quiz Agent</span>
+            <a class="work-link" href="https://sportsquiz-ai.streamlit.app/" target="_blank" rel="noopener">Visit ↗</a>
+          </div>
+          <p class="slide-card-desc">Generates context-aware sports quiz questions instead of recycled trivia — a RAG pipeline over ChromaDB grounds Gemini's generations in real source material, with SQLite handling history, caching, and analytics.</p>
+          <div class="slide-card-tags"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Gemini API</span><span class="tag">RAG</span><span class="tag">ChromaDB</span></div>
+        </article>
+
+        <article class="slide-card">
+          <div class="slide-card-top">
+            <span class="slide-card-title">RenewCred CMS</span>
+            <a class="work-link" href="https://renewcred-headless-cms-blush.vercel.app/" target="_blank" rel="noopener">Visit ↗</a>
+          </div>
+          <p class="slide-card-desc">A headless CMS with a block-based content editor — handles rich text, nested lists, tables, and math equations as structured content, decoupled from the Next.js public site that renders it.</p>
+          <div class="slide-card-tags"><span class="tag">Next.js</span><span class="tag">Redux Toolkit</span><span class="tag">Express</span><span class="tag">MongoDB</span><span class="tag">Docker</span></div>
+        </article>
+
+        <article class="slide-card">
+        <div class="slide-card-top">
+            <span class="slide-card-title">UserHub</span>
+            <a class="work-link" href="https://user-hub-snowy.vercel.app/" target="_blank" rel="noopener">Visit ↗</a>
+        </div>
+        <p class="slide-card-desc">A user-management dashboard rebuilt through multiple UI passes to reach a genuinely premium finish — command palette with full keyboard navigation, drag-and-drop column reordering, and shimmer skeleton loading states.</p>
+        <div class="slide-card-tags"><span class="tag">React</span><span class="tag">Vite</span><span class="tag">Zustand</span><span class="tag">Axios</span><span class="tag">Vitest</span></div>
+        </article>
+
+        <article class="slide-card">
+        <div class="slide-card-top">
+            <span class="slide-card-title">SuperVerse</span>
+            <a class="work-link" href="https://supr-app-sigma.vercel.app/" target="_blank" rel="noopener">Visit ↗</a>
+        </div>
+        <p class="slide-card-desc">A multi-widget "super app" dashboard combining weather, news, movies, and notes behind a single unified shell — including a server-side proxy layer built to work around NewsAPI's CORS restrictions in production.</p>
+        <div class="slide-card-tags"><span class="tag">Next.js</span><span class="tag">React</span><span class="tag">Zustand</span><span class="tag">REST APIs</span></div>
+        </article>
+
+        <article class="slide-card">
+            <div class="slide-card-top">
+                <span class="slide-card-title">AI Wiki Quiz Generator</span>
+                <a class="work-link" href="https://thippeswamykr1204.github.io/AI_Wiki_Quiz_Generator/" target="_blank" rel="noopener">Visit ↗</a>
+            </div>
+            <p class="slide-card-desc">Turns any Wikipedia topic into a ready-to-take quiz — pulls the source content, generates questions with Gemini, and scores answers instantly instead of leaving you to write trivia by hand.</p>
+            <div class="slide-card-tags"><span class="tag">React</span><span class="tag">FastAPI</span><span class="tag">Python</span><span class="tag">Gemini API</span></div>
+            </article>
+
+            <article class="slide-card">
+            <div class="slide-card-top">
+                <span class="slide-card-title">Library Management API</span>
+                <a class="work-link" href="https://thippeswamykr1204.github.io/Library_managment/" target="_blank" rel="noopener">Visit ↗</a>
+            </div>
+            <p class="slide-card-desc">A role-based REST API for cataloging, borrowing, and returning books, with atomic operations that prevent double-lending under concurrent requests — reviewed against 58+ integration tests before deployment.</p>
+            <div class="slide-card-tags"><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">MongoDB</span><span class="tag">Jest / Supertest</span></div>
+            </article>
+
+            <article class="slide-card">
+            <div class="slide-card-top">
+                <span class="slide-card-title">Speed Typing</span>
+                <a class="work-link" href="https://thippeswamykr1204.github.io/Speed_Typing/" target="_blank" rel="noopener">Visit ↗</a>
+            </div>
+            <p class="slide-card-desc">A real-time typing speed test that tracks WPM and accuracy as you type, with live feedback on every keystroke instead of a single score at the end.</p>
+            <div class="slide-card-tags"><span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span></div>
+            </article>
+
+        <!--
+          SLIDE CARD TEMPLATE — duplicate this <article> block for each
+          remaining live project. Remove "is-dummy" + placeholder text.
+          The slider shows 2 cards per view automatically, however many
+          cards are in this track.
+        -->
+        <!-- <article class="slide-card is-dummy">
+          <div class="slide-card-top">
+            <span class="slide-card-title">[ Project name ]</span>
+            <span class="work-link">Add URL →</span>
+          </div>
+          <p class="slide-card-desc">One-line description — what problem it solves, stated plainly.</p>
+          <div class="slide-card-tags"><span class="tag">Stack</span><span class="tag">Tags</span></div>
+        </article> -->
+
+      </div>
+    </div>
+    <div class="slider-controls">
+      <span class="slider-count" id="sliderCount">1 / 1</span>
+      <div class="slider-buttons">
+        <button class="slider-btn" id="sliderPrev" aria-label="Previous projects">←</button>
+        <button class="slider-btn" id="sliderNext" aria-label="Next projects">→</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TECHNICAL EXPERTISE -->
+<section id="expertise" class="section-pad shell">
+  <div class="section-head reveal">
+    <div>
+      <div class="section-index">02 / TECHNICAL EXPERTISE</div>
+      <h2 class="section-title">The stack behind the work</h2>
+    </div>
+    <div class="section-meta">Tools I reach for by default, not by trend</div>
+  </div>
+
+  <div class="expertise-grid reveal">
+    <div class="expertise-cell">
+      <div class="expertise-label">FRONTEND</div>
+      <div class="expertise-items">
+        <div class="expertise-item">React &amp; Next.js</div>
+        <div class="expertise-item">TypeScript</div>
+        <div class="expertise-item">Zustand / Redux Toolkit</div>
+        <div class="expertise-item">Tailwind CSS</div>
+      </div>
+    </div>
+    <div class="expertise-cell">
+      <div class="expertise-label">BACKEND</div>
+      <div class="expertise-items">
+        <div class="expertise-item">Node.js &amp; Express</div>
+        <div class="expertise-item">REST API design</div>
+        <div class="expertise-item">JWT authentication</div>
+        <div class="expertise-item">Socket.io realtime</div>
+      </div>
+    </div>
+    <div class="expertise-cell">
+      <div class="expertise-label">DATA &amp; INFRA</div>
+      <div class="expertise-items">
+        <div class="expertise-item">MongoDB / Mongoose</div>
+        <div class="expertise-item">AWS &amp; Docker</div>
+        <div class="expertise-item">Vercel / Render / Railway</div>
+        <div class="expertise-item">Zod schema validation</div>
+      </div>
+    </div>
+    <div class="expertise-cell">
+      <div class="expertise-label">QUALITY &amp; AI</div>
+      <div class="expertise-items">
+        <div class="expertise-item">Jest &amp; Supertest</div>
+        <div class="expertise-item">Vitest</div>
+        <div class="expertise-item">Gemini API integration</div>
+        <div class="expertise-item">Applied AI/ML (TensorFlow)</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE & EDUCATION -->
+<section id="experience" class="section-pad shell">
+  <div class="section-head reveal">
+    <div>
+      <div class="section-index">03 / EXPERIENCE</div>
+      <h2 class="section-title">Experience &amp; education</h2>
+    </div>
+    <div class="section-meta">Bengaluru, Karnataka</div>
+  </div>
+
+  <div class="timeline">
+    <div class="timeline-row reveal">
+      <div class="timeline-date">2026</div>
+      <div>
+        <div class="timeline-role">Full-Stack Development Intern</div>
+        <div class="timeline-org">SuprMentr Technologies</div>
+        <p class="timeline-desc">Completed a 15-week structured MERN internship, shipping hands-on projects including FinSight, from architecture decisions through deployment.</p>
+        <div class="timeline-tags"><span class="tag">MongoDB</span><span class="tag">Express</span><span class="tag">React</span><span class="tag">Node.js</span></div>
+      </div>
+    </div>
+    <div class="timeline-row reveal">
+    <div class="timeline-date">2022 — 2026</div>
+    <div>
+        <div class="timeline-role">B.E. — Artificial Intelligence &amp; Machine Learning</div>
+        <div class="timeline-org">Sri Sairam College of Engineering (VTU)</div>
+        <p class="timeline-desc">Graduated with coursework in AI/ML fundamentals alongside self-directed full-stack projects, applying machine learning concepts to production web applications.</p>
+        <div class="timeline-tags"><span class="tag">Machine Learning</span><span class="tag">Python</span><span class="tag">TensorFlow</span></div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section-pad shell">
+  <div class="contact-panel reveal">
+    <div class="contact-grid">
+      <div>
+        <h2 class="contact-headline">Let's talk about what you're building.</h2>
+        <p class="contact-copy">Open to Full-Stack Developer and SDE roles as a fresher. If your team needs someone who can own a feature from schema to deployment, I'd like to hear about it.</p>
+        <div class="hero-actions">
+          <a href="mailto:kollithippeswamy1204@gmail.com" class="btn btn-primary">Email me</a>
+          <a href="img/Resume.pdf" class="btn btn-outline" target="_blank" rel="noopener">Download Resume</a>
+        </div>
+      </div>
+      <div class="contact-channels">
+        <a href="mailto:kollithippeswamy1204@gmail.com" class="channel-row">
+          <span class="channel-label">Email</span>
+          <span class="channel-value">kollithippeswamy1204@gmail.com</span>
+        </a>
+        <a href="https://github.com/thippeswamykr1204" target="_blank" rel="noopener" class="channel-row">
+          <span class="channel-label">GitHub</span>
+          <span class="channel-value">@thippeswamykr1204</span>
+        </a>
+        <a href="https://www.linkedin.com/in/thippeswamy-kr-a57b30298" target="_blank" rel="noopener" class="channel-row">
+          <span class="channel-label">LinkedIn</span>
+          <span class="channel-value">Thippeswamy K R</span>
+        </a>
+        <a href="thippeswamykr1204.github.io/Portfolio" target="_blank" rel="noopener" class="channel-row">
+          <span class="channel-label">Portfolio</span>
+          <span class="channel-value">thippeswamykr1204.github.io</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <p class="footer-copy">© 2026 Thippeswamy K R. Built from scratch, shipped like production.</p>
+    <div class="footer-links">
+      <a href="https://github.com/thippeswamykr1204" class="footer-link" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/thippeswamy-kr-a57b30298" class="footer-link" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:kollithippeswamy1204@gmail.com" class="footer-link">Email</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
